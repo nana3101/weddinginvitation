@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Wedding Invitation</title>
+  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Playfair+Display:wght@600&family=Rouge+Script&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    html {
+      scroll-behavior: smooth;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Halaman Pembuka -->
+  <section class="container">
+    <h3 class="subtitle">The wedding of</h3>
+    <h1 class="names">Isaac & Natalie</h1>
+
+    <div class="photo-wrapper">
+      <img src="download (53).jpg" alt="Couple" class="couple-photo">
+      <img src="download (44).png" alt="Flower" class="flower animate-flower">
+    </div>
+
+    <div class="date">17 / 11 / 2026</div>
+
+    <a href="#quotes" class="open-btn">Open Invitation</a>
+  </section>
+
+  <!-- Halaman Quotes -->
+  <section class="engaged-section" id="quotes">
+    <h1 class="engaged-title">We're<br>Getting Married!</h1>
+    <p class="engaged-subtitle">💍 Join Us for the Party of Justin & Hailey!</p>
+
+    <div class="engaged-quote-box">
+      <p>We said yes — now let’s party! Come celebrate this special season<br />
+      of love with us.</p>
+      <p>We feel incredibly blessed to share this moment with you. <br>Come witness our vows of love, unity, and joy. ✨</p>
+    </div>
+
+    <div class="engaged-image">
+      <img src="wedding 2.1.jpg" alt="Couple holding hands" />
+    </div>
+  </section>
+
+  <!-- Halaman Data Mempelai -->
+  <section class="couple-container" id="couple">
+    <h1>Couple</h1>
+    <p class="description">
+      With great joy and respect, we would like to invite you to celebrate<br/>
+      our wedding at the reception. Your presence would mean the world<br/>
+      to us as we begin this new chapter in our lives. We hope you'll join<br/>
+      us for an evening of love, laughter, and unforgettable memories.
+    </p>
+
+    <div class="person">
+        <img src="bride.jpg" alt="Bride"/>
+        <div class="name">Amalie Natalie</div>
+        <div class="info">
+          Putri Kedua dari<br/>
+          Bapak Albert Maxime<br/>
+          & Ibu Belle Oceane
+        </div>
+      </div>
+    </div>
+
+      <h2 class="and">And</h2>
+
+     <div class="couple-section">
+      <div class="person">
+        <img src="groom.jpg" alt="Groom"/>
+        <div class="name">Isaac Raphael</div>
+        <div class="info">
+          Putra Pertama dari<br/>
+          Bapak Jerome Severin<br/>
+          & Ibu Jeanne Therese
+        </div>
+      </div>
+  </section>
+
+  <!-- Halaman Event -->
+  <section class="save-date-section" id="event">
+    <h1 class="save-title">Save the date</h1>
+    <p class="save-subtitle">
+      You are invited to attend and be a part of our joyous celebration, which<br />
+      will be held on:
+    </p>
+
+    <div class="events-container">
+      <!-- Akad -->
+      <div class="event-card">
+        <img src="download (47).png" alt="Bunga Akad" class="flower animate" />
+        <h2 class="event-name">Akad Nikah</h2>
+        <p class="event-date"><strong>Sabtu, 17 November 2025</strong></p>
+        <p class="event-time">Pukul 08.00 WIB</p>
+        <p class="event-location">Playa Bacuranao, Cuba</p>
+        <a href="https://maps.app.goo.gl/vSEV4ooCkBbBPtnEA" target="_blank" class="event-button">Lokasi Acara</a>
+      </div>
+
+      <!-- Resepsi -->
+      <div class="event-card">
+        <img src="download (45).png" alt="Bunga Resepsi" class="flower animate" />
+        <h2 class="event-name">Resepsi</h2>
+        <p class="event-date"><strong>Sabtu, 17 November 2025</strong></p>
+        <p class="event-time">Pukul 11.00 - 14.00 WIB</p>
+        <p class="event-location">Playa Bacuranao, Cuba</p>
+        <a href="https://maps.app.goo.gl/vSEV4ooCkBbBPtnEA" target="_blank" class="event-button">Lokasi Acara</a>
+      </div>
+    </div>
+
+    <!-- Peta -->
+    <div class="map-section">
+      <h2 class="map-title">Petunjuk Lokasi</h2>
+      <div class="map-container">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1833.9266866586056!2d-82.24146366132298!3d23.175551044766724!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88cd7f93ba5d19f9%3A0x95a362db965f5860!2sPlaya%20Bacuranao!5e0!3m2!1sen!2sid!4v1748918023571!5m2!1sen!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        <p class="map-address">Playa Bacuranao, Cuba</p>
+      </div>
+    </div>
+  </section>
+
+<!-- Tambahkan Countdown & RSVP di bawah peta -->
+<div id="countdown-rsvp-wrapper">
+  <!-- Countdown Section -->
+  <div id="countdown-section" class="background-container">
+    <img src="wedding 5.1.jpeg"Background" class="background-image" />
+    <div class="background-overlay"></div>
+
+    <div class="overlay-box">
+      <h1>Countdown To <br /> Celebration</h1>
+      <p>Join us for our marriage party!</p>
+      <div class="countdown" id="countdown">
+        <div class="countdown-item"><span id="days">00</span><label>Days</label></div>
+        <div class="countdown-item"><span id="hours">00</span><label>Hours</label></div>
+        <div class="countdown-item"><span id="minutes">00</span><label>Minutes</label></div>
+        <div class="countdown-item"><span id="seconds">00</span><label>Seconds</label></div>
+      </div>
+      <button class="btn" onclick="showRSVP()">Kirim RSVP</button>
+    </div>
+  </div>
+
+<!-- Form RSVP disembunyikan default -->
+<div id="rsvp-section" class="rsvp-container">
+  <div class="rsvp-card">
+    <h2>RSVP</h2>
+    <form id="rsvp-form" onsubmit="submitForm(event)">
+      <!-- input form -->
+      <input type="text" id="nama" placeholder="Nama Tamu" required />
+      <input type="text" id="grup" placeholder="Grup" />
+      <input type="tel" id="wa" placeholder="No WhatsApp" required />
+      <select id="kehadiran" required>
+        <option value="">Kehadiran</option>
+        <option value="Hadir">Hadir</option>
+        <option value="Tidak Hadir">Tidak Hadir</option>
+      </select>
+      <textarea id="ucapan" rows="3" placeholder="Ucapan atau komentar..."></textarea>
+      <button type="submit" class="btn">Kirim</button>
+    </form>
+  </div>
+</div>
+
+<!-- Baru mulai section gallery -->
+<center><section class="hero">
+  <div class="text-container">
+    <h1 class="gallery-title">Our Moment</h1>
+    <p>
+      I would cross a thousand lifetimes to find you,<br />
+      and I'll gladly spend another thousand loving you.
+    </p>
+  </div>
+
+  <div class="grid-gallery">
+    <div class="grid-item item1"><img src="wedding 1.jpg" alt="Moment 1" /></div>
+    <div class="grid-item item2"><img src="wedding 3.jpg" alt="Moment 2" /></div>
+    <div class="grid-item item3"><img src="wedding 2.jpg" alt="Moment 3" /></div>
+    <div class="grid-item item4"><img src="wedding 4.jpg" alt="Moment 4" /></div>
+    <div class="grid-item item5"><img src="wedding 7.jpg" alt="Moment 5" /></div>
+    <div class="grid-item item6"><img src="wedding 6.jpg" alt="Moment 6" /></div>
+  </div>
+</section></center>
+
+<!-- === HADIAH SECTION === -->
+<section id="gifts" class="gift-section">
+  <img src="download (52).png" alt="Bunga Kiri" class="bunga bunga-kiri" />
+  <img src="download (51).png" alt="Bunga Kanan" class="bunga bunga-kanan" />
+
+  <div class="gift-box">
+    <center><h2 class="gift-title">Gifts</h2></center>
+    <p class="gift-message">
+      Terima kasih telah mengisi kebahagiaan dan kegembiraan di pernikahan kami dengan kehadiran dan hadiah indah Anda.
+    </p>
+
+    <div class="rekening">
+      <img src="473c64ed9af3edc9631979ec39e58934.png" alt="Logo BCA" class="bank-logo">
+      <div class="bank-info">
+        <strong>68xxxxxxx</strong><br>
+        A/N Isaac Raphael
+      </div>
+    </div>
+
+    <div class="rekening">
+      <img src="download (41).png" alt="Logo BNI" class="bank-logo">
+      <div class="bank-info">
+        <strong>38xxxxxxx</strong><br>
+        A/N Amalie Natalie
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Halaman Penutup -->
+<section class="thankyou-section">
+  <h1 class="thankyou-title">Thank You</h1>
+  <p class="thankyou-message">
+    Thank you for your presence, prayers, and love. May God always<br>
+    bestow His grace, peace, and blessings upon us all.
+  </p>
+
+  <h2 class="invited-heading">Also Invited</h2>
+
+  <div class="invited-box">
+    <p class="invited-name">Isaac Bieber</p>
+    <p class="invited-role">Keluarga Bieber</p>
+  </div>
+
+  <div class="invited-box">
+    <p class="invited-name">Amalie Natalie</p>
+    <p class="invited-role">Keluarga Natalie</p>
+  </div>
+
+  <img src="download (51).png" alt="bunga" class="flower-image" />
+</section>
+
+<audio id="bgMusic" src="SpotiDownloader.com - Young And Beautiful - Lana Del Rey.mp3" loop></audio>
+<div id="cassetteButton">
+  <img src="download (50).png" alt="cassette" id="cassetteImage" />
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
